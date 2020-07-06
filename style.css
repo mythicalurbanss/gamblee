@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display|Yanone+Kaffeesatz');
+
+body {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+img {
+  height: 180px;
+  width: 120px;
+}
+
+h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 35px;
+}
+
+li p {
+  text-align: left;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display:flex;
+}
+
+.card {
+  border: solid white 5px;
+  border-radius: 5px;
+}
+
+#game {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#rules {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  width: 60%;
+  border: blue solid 5px;
+  border-radius: 8%;
+}
+
+#rules div{
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+#rules p {
+  font-size: 20px;
+}
+
+#rules, #bust-view {
+  background-color: white;
+  color: black;
+}
+
+#board {
+  height: 600px;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+  background-color: green;
+  border: brown solid 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#playing-cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#playing-cards > div {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#player, #dealer {
+  border: none;
+}
+
+#player {
+  align-self: flex-end;
+}
+
+#dealer {
+  align-self: flex-start;
+}
+
+#controls p {
+  background-color: blue;
+  width: 140px;
+  height: 20px;
+  text-align: center;
+}
+
+#deal, #hit, #stand {
+  height: 30px;
+  width: 60px;
+  margin-bottom: 5px;
+}
+
+#bust-view {
+  border: red solid 5px;
+  border-radius: 5px;
+  flex-direction: column;
+  width: 200px;
+  align-self: center;
+  justify-content: center;
+}
+
+#bust-view h1 {
+  font-size: 40px;
+}
+
+#bust-view button {
+  height: 30px;
+  width: 50px;
+  align-self: center;
+  margin: 2px;
+}
+
+#game + section {
+  font-size: 50px;
+  font-family: "Playfair Display", sans-serif;
+}

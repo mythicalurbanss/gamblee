@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Play Now!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <section id="game">
+        <section id="rules">
+          <h1>BLACKJACK</h1>
+          <p>
+            Welcome to the game of Blackjack (aka 21)! Here are the basic rules of this
+            version that you need to know to play.
+          </p>
+          <div>
+          <ul>
+            <li>
+              <p>The goal of blackjack is to beat the dealer's hand without going over 21.</p>
+            </li>
+            <li>
+              <p>
+                Face cards are worth 10. Aces are worth 1 or 11, whichever makes a better hand.
+                All others are they're actual value.
+              </p>
+            </li>
+            <li>
+              <p>
+                The player starts with two cards, the dealer's cards are hidden until the end.
+              </p>
+            </li>
+            <li>
+              <p>
+                To 'Hit' is to ask for another card. To 'Stand' is to hold your total and
+                end your turn.
+              </p>
+            </li>
+            <li>
+              <p>
+                If you go over 21 you bust, and the dealer wins regardless of the dealer's hand.
+              </p>
+            </li>
+            <li>
+              <p>
+                If you are dealt 21 from the start (Ace & 10), you got a blackjack.
+              </p>
+            </li>
+            <li>
+              <p>
+                Dealer will hit until his/her cards total 17 or higher.
+              </p>
+            </li>
+            <li>
+              <p>Doubling is not allowed. (don't worry if you don't know what this is)</p>
+            </li>
+            <li>
+              <p>
+                You will always bet 5 credits to play each hand, and if you run out the game
+                will end.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <button id="deal">Play</button>
+        </section>
+
+        <div id="board" class="hidden">
+          <div id="playing-cards">
+            <div>
+              <div id="dealer" class="card">
+              </div>
+            </div>
+            <div >
+              <div id="player" class="card">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="controls" class="hidden">
+          <button id="hit">Hit</button>
+          <button id="stand">Stand</button>
+          <p>Credits: 200</p>
+        </div>
+
+        <div id="bust-view" class="hidden">
+          <h1></h1>
+          <p></p>
+          <p>Do you want to play again?</p>
+          <button id="play-again">Play</button>
+          <button id="stop-playing">Exit</button>
+        </div>
+      </section>
+
+      <section class="hidden">
+        <article>
+          <p>THANKS FOR PLAYING!</p>
+        </article>
+      </section>
+    </main>
+    <!-- All playing card images are rightfully owned and licensed by Google-->
+    <footer>
+      <cite>
+        Playing Card Images Courtesy of
+        <a href ="https://code.google.com/archive/p/vector-playing-cards/">Google Code Archive</a>
+      </cite>
+    </footer>
+  </body>
+</html>
