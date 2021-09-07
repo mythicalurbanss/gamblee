@@ -9,7 +9,7 @@
 
   const IMG_PRE = "card-img/";
   const IMG_POST = ".png";
-  const CREDIT_WIN = 15;
+  const CREDIT_WIN = 150000000000;
   const CREDIT_LOST = 5;
   const BUST_VAL = 21;
   const ACE_UP = 11;
